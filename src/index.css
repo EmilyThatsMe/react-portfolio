@@ -1,3 +1,5 @@
+/* universal styles*/
+
 body {
   margin: 0;
   font-family: 'Outfit', sans-serif;
@@ -11,6 +13,7 @@ code {
     monospace;
 }
 
+/* header styles */
 a {
   text-decoration: none;
   color: #f9eae6;
@@ -55,6 +58,8 @@ header nav ul {
   font-size: 1.5rem;
 }
 
+/* about section */
+
 #about {
   font-size: 2.5rem;
   text-align: center;
@@ -74,6 +79,36 @@ header nav ul {
   font-size: 1.2rem;
 }
 
+/* Contact form*/
+.contact {
+  color: #c97c5d;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+}
+
+.container--contact {
+  text-align: center;
+}
+
+.container--contact label {
+  display: block;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.container button {
+  background-color: #b36a5e;
+  color: #f9eae6;
+  padding: 5px;
+  width: 100px;
+  margin-top: 25px;
+  border: none;
+  font-size: 1.5rem;
+}
+
+/* footer styles */
 footer {
   background-color: #c97c5d;
   color: #f9eae6;
