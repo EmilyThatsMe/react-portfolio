@@ -5,8 +5,8 @@ function About() {
   return (
     <section className="about">
       <h1 id="about">About Me</h1>
-      <img src={myImage}></img>
-      <p>
+      <img className="about--img" src={myImage}></img>
+      <p className="about--paragraph">
         consectetur felis turpis ac felis. Orci varius natoque penatibus et
         magnis dis parturient montes, nascetur ridiculus mus. Donec commodo
         neque orci, et tristique lacus accumsan id. Donec posuere sodales

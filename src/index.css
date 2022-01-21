@@ -3,6 +3,7 @@ body {
   font-family: 'Outfit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9eae6;
 }
 
 code {
@@ -12,7 +13,7 @@ code {
 
 a {
   text-decoration: none;
-  color: #eee2df;
+  color: #f9eae6;
 }
 
 A:hover {
@@ -52,4 +53,29 @@ header nav ul {
   gap: 100px;
   width: 100%;
   font-size: 1.5rem;
+}
+
+#about {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #c97c5d;
+}
+
+.about--img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about--paragraph {
+  padding: 25px;
+  color: #97554a;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #c97c5d;
+  color: #f9eae6;
+  padding: 12px;
 }
