@@ -10,6 +10,7 @@ function App() {
       <main>
         <About></About>
       </main>
+      <footer>Emily Thon</footer>
     </div>
   );
 }
