@@ -108,6 +108,29 @@ header nav ul {
   font-size: 1.5rem;
 }
 
+/* resume styles*/
+.resume--container {
+  color: #97554a;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.resume--container h1 {
+  font-size: 2.5rem;
+  color: #c97c5d;
+}
+
+.resume--container h2 {
+  font-size: 2rem;
+}
+
+.resume--container a {
+  color: #b36a5e;
+}
+
+.resume--container a:hover {
+  color: #5c2a22;
+}
 /* footer styles */
 footer {
   background-color: #c97c5d;
