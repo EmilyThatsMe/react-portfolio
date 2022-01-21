@@ -4,12 +4,16 @@ function Nav() {
   return (
     <header>
       <h2>
-        <a href="/">Emily Thon</a>
+        <a data-testid="link" href="/">
+          Emily Thon
+        </a>
       </h2>
       <nav>
         <ul>
           <li>
-            <a href="#about">About Me</a>
+            <a data-testid="about" href="#about">
+              About Me
+            </a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>
