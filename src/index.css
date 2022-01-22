@@ -131,6 +131,54 @@ header nav ul {
 .resume--container a:hover {
   color: #5c2a22;
 }
+
+/* Portfolio Styles */
+
+.portfolio h1 {
+  color: #c97c5d;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.portfolio a {
+  color: #c97c5d;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.img--container {
+  position: relative;
+}
+
+.img--container span {
+  position: absolute;
+  left: 0px;
+  top: 240px;
+  background-color: #c97c5d;
+  padding: 10px;
+  color: #f9eae6;
+}
+
+.img--container span a {
+  color: #f9eae6;
+}
+
+.img--container span a:hover {
+  color: #5c2a22;
+}
+
 /* footer styles */
 footer {
   background-color: #c97c5d;
