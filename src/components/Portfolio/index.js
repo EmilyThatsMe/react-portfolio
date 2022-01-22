@@ -8,7 +8,7 @@ import notes from '../../assets/images/notes.jpg';
 
 function Portfolio() {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       <div className="flex-row">
         <div className="img--container">

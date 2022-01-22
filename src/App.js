@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
@@ -14,10 +14,10 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
+        <About></About>
         <Portfolio></Portfolio>
         <Resume></Resume>
         <ContactForm></ContactForm>
-        <About></About>
       </main>
       <footer>
         <a href="https://github.com/EmilyThatsMe">

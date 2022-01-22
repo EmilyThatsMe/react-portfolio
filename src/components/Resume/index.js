@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section className="resume--container">
+    <section className="resume--container" id="resume">
       <h1>Resume</h1>
       <div className="skill--list">
         <h2>I am experienced in the following technologies:</h2>

@@ -14,6 +14,13 @@ code {
 }
 
 /* header styles */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 a {
   text-decoration: none;
   color: #f9eae6;
@@ -64,6 +71,7 @@ header nav ul {
   font-size: 2.5rem;
   text-align: center;
   color: #c97c5d;
+  margin-top: 200px;
 }
 
 .about--img {
@@ -82,6 +90,7 @@ header nav ul {
 /* Contact form*/
 .contact {
   color: #c97c5d;
+  margin: 100px;
 }
 
 .contact h2 {

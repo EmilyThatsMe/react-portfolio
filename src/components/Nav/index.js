@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav() {
   return (
-    <header>
+    <header className="sticky">
       <div className="container">
         <div className="header--logo">
           <a href="/">Emily Thon</a>
