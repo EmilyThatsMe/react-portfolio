@@ -181,7 +181,12 @@ header nav ul {
 
 /* footer styles */
 footer {
+  text-align: center;
   background-color: #c97c5d;
   color: #f9eae6;
   padding: 12px;
+}
+
+footer a {
+  margin: 50px;
 }
