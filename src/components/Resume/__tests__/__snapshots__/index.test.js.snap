@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section
+    class="resume--container"
+    id="resume"
+  >
+    <h1>
+      Resume
+    </h1>
+    <div
+      class="skill--list"
+    >
+      <h2>
+        I am experienced in the following technologies:
+      </h2>
+      <ul>
+        <li>
+          HTML and CSS
+        </li>
+        <li>
+          Javascript and JQuery
+        </li>
+        <li>
+          Node
+        </li>
+        <li>
+          Express
+        </li>
+        <li>
+          React
+        </li>
+        <li>
+          SQL and Sequelize
+        </li>
+        <li>
+          MongoDB and Mongoose
+        </li>
+      </ul>
+    </div>
+    <p>
+      To check out my full resume, check out my linkedIn page 
+      <a
+        href="https://www.linkedin.com/in/emmykay/"
+      >
+        here
+      </a>
+    </p>
+  </section>
+</DocumentFragment>
+`;

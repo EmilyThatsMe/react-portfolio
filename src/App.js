@@ -10,14 +10,15 @@ import Linkedin from './assets/images/iconmonstr-linkedin-3.svg';
 import Stack from './assets/images/iconmonstr-stackoverflow-1.svg';
 
 function App() {
+  const [isClicked, setIsClicked] = useState(false);
   return (
     <div>
-      <Nav></Nav>
+      <Nav isClicked={isClicked} setIsClicked={setIsClicked}></Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <ContactForm></ContactForm>
+        {isClicked ? <About></About> : <About></About>}
+        {isClicked ? <Portfolio></Portfolio> : <Portfolio></Portfolio>}
+        {isClicked ? <Resume></Resume> : <Resume></Resume>}
+        {isClicked ? <ContactForm></ContactForm> : <ContactForm></ContactForm>}
       </main>
       <footer>
         <a href="https://github.com/EmilyThatsMe">

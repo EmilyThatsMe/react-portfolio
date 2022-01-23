@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+  const { isClicked, setIsClicked } = props;
   return (
     <header className="sticky">
       <div className="container">
@@ -10,16 +11,24 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <a href="#about-me">About Me</a>
+              <a href="#about-me" onClick={() => setIsClicked(true)}>
+                About Me
+              </a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio" onClick={() => setIsClicked(true)}>
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a href="#resume" onClick={() => setIsClicked(true)}>
+                Resume
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => setIsClicked(true)}>
+                Contact
+              </a>
             </li>
           </ul>
         </nav>

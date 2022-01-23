@@ -56,7 +56,7 @@ function ContactForm() {
             <input
               type="email"
               name="email"
-              defaultValue={{ email }}
+              defaultValue={email}
               onBlur={handleChange}
             />
           </div>
@@ -65,7 +65,7 @@ function ContactForm() {
             <textarea
               name="message"
               rows="5"
-              defaultValue={{ message }}
+              defaultValue={message}
               onBlur={handleChange}
             />
           </div>
