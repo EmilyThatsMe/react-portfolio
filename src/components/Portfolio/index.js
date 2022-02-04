@@ -4,7 +4,8 @@ import dog from '../../assets/images/dog.jpg';
 import profile from '../../assets/images/profile.jpg';
 import run from '../../assets/images/run.jpg';
 import quiz from '../../assets/images/quiz.jpg';
-import notes from '../../assets/images/notes.jpg';
+//import notes from '../../assets/images/notes.jpg';
+import tracker from '../../assets/images/tracker.jpg';
 
 function Portfolio() {
   return (
@@ -19,6 +20,16 @@ function Portfolio() {
             </a>
             <br></br>
             <a href="https://github.com/Concord511/Quote-Battle">Github</a>
+          </span>
+        </div>
+        <div className="img--container">
+          <img src={tracker} className="img-thumbnail mx-1"></img>
+          <span>
+            <a href="https://emilythatsme.github.io/express-note-taker/">
+              Full Stack Exercise Track - MERN
+            </a>
+            <br></br>
+            <a href="https://guarded-anchorage-60502.herokuapp.com/">Heroku</a>
           </span>
         </div>
         <div className="img--container">
@@ -61,18 +72,6 @@ function Portfolio() {
             </a>
             <br></br>
             <a href="https://github.com/EmilyThatsMe/run-buddy">Github</a>
-          </span>
-        </div>
-        <div className="img--container">
-          <img src={notes} className="img-thumbnail mx-1"></img>
-          <span>
-            <a href="https://emilythatsme.github.io/express-note-taker/">
-              Note Taker - Node, Express
-            </a>
-            <br></br>
-            <a href="https://github.com/EmilyThatsMe/express-note-taker">
-              Github
-            </a>
           </span>
         </div>
       </div>

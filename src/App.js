@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Nav isClicked={isClicked} setIsClicked={setIsClicked}></Nav>
-      <main>
+      <main id="main">
         {isClicked ? <About></About> : <About></About>}
         {isClicked ? <Portfolio></Portfolio> : <Portfolio></Portfolio>}
         {isClicked ? <Resume></Resume> : <Resume></Resume>}
